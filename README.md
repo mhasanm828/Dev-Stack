@@ -1,6 +1,6 @@
 # 🧱 Dev Stack Builder
 
-A modern and responsive web application that helps developers explore different technologies and build their own development stack.
+A modern web application that helps developers explore different technologies and build their own development stack.
 
 Users can browse frontend, backend, database, language, styling, DevOps, and development tools, then add their preferred technologies to a personal stack.
 
@@ -46,7 +46,9 @@ Users can browse frontend, backend, database, language, styling, DevOps, and dev
 ---
 
 👨‍💻 Author
+
 **Md Hasan Mahmud**
+
 Built as a React assignment project.
 
 ---
@@ -79,12 +81,9 @@ src/
 public/
 └── data.json
 
+```
 
 
-
-
-
-Here are simple, straightforward answers to your questions, written in natural, easy-to-understand English.
 
 ---
 
@@ -113,6 +112,6 @@ Conditional rendering means showing or hiding UI elements based on a true/false 
 * **Parent to Child:** Pass data down using attributes on the component (props).
 * **Child to Parent:** Pass a function down from the parent as a prop. The child calls that function and passes data into it as an argument.
 
-
+---
 
 
