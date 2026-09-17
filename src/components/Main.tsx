@@ -1,9 +1,9 @@
-import heroImage from "../assets/banner-stack.png";
+import heroImage from '../assets/banner-stack.png';
 
-const Hero = () => {
+const Main = () => {
     return (
             <section className='max-w-7xl mx-auto py-16' >
-                <div className='flex max-auto gap-10 px-8 grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-16 '>
+                <div className='flex max-auto gap-10  grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-16 '>
                     <div> 
                         <h1 className='font-bold text-5xl' > 
                             <span className='font-bold text-5xl'> Build Your Ideal </span> <br />
@@ -26,4 +26,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default Main;
