@@ -1,75 +1,71 @@
-# React + TypeScript + Vite
+# 🧱 Dev Stack Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive web application that helps developers explore different technologies and build their own development stack.
 
-Currently, two official plugins are available:
+Users can browse frontend, backend, database, language, styling, DevOps, and development tools, then add their preferred technologies to a personal stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Live Site:** [Add your live site link here]
 
-## Expanding the ESLint configuration
+🔗 **GitHub Repository:** [Add your GitHub repository link here]
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- 🔍 **Explore Technologies**  
+  Browse different development technologies with their category, difficulty level, rating, description, and badge.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- 🧰 **Build Your Own Stack**  
+  Add technologies to your personal stack and remove individual technologies whenever needed.
 
-```
+- 🔔 **Interactive Notifications**  
+  React-Toastify is used to show notifications when technologies are added, removed, duplicated, or when the entire stack is cleared.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Technologies Used
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- React.js
+- TypeScript
+- Tailwind CSS
+- React Suspense
+- React Hooks
+- React-Toastify
+- JSON
+- Vite
+- HTML5
+- CSS3
+- Git & GitHub
 
-```
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── assets/
+│
+├── components/
+│   ├── Nav.tsx
+│   ├── Hero.tsx
+│   ├── Footer.tsx
+│   │
+│   └── technology/
+│       ├── Technology.tsx
+│       ├── TechnologyCard.tsx
+│       └── YourStack.tsx
+│
+├── types/
+│   └── technologyType.ts
+│
+├── App.tsx
+├── main.tsx
+└── index.css
+│
+public/
+└── data.json
